@@ -15,34 +15,20 @@
       <a href="/delete"><i class="fas fa-times"> </i> remove card</a>
     </div>
   </div>
+  
   <div class="content">
-    <div class="form">
-    <h2>ADD A CARD</h2>
-      <div class="errors">
-      {% for error in errors %}
-        <div class="error">{{ error }}</div>
-      {% endfor %}
+    {% for villain in villains %}
+    <div class="card">
+      <h2 class="card-name">{{villain.name}}</h2>
+      <img src={{villain.url}} class="card-image"/>
+      <div class="card-body">
+        <p class="card-description">{{villain.description}}</p>
+        <h4>Interests</h4>
+        <p class="card-interests"> {{villain.interests}}</p>
+        <p class="card-date-added"> {{villain.date_added}}</p>
+      </div>
     </div>
-    <form action="/addVillain" method="post">
-      <div class="form-input">
-        <label for="name">name</label>
-        <input type="text" name="name"/>
-      </div>
-      <div class="form-input">
-        <label for="description">description</label>
-        <input type="text" name="description"/>
-      </div>
-      <div class="form-input">
-        <label for="interests">interests</label>
-        <input type="text" name="interests"/>
-      </div>
-      <div class="form-input">
-        <label for="url">image URL</label>
-        <input type="text" name="url"/>
-      </div>
-      <button type="submit">Add Me!</button>
-    </form>
-    </div>
+    {% endfor %}
   </div>
 </body>
 </html>
