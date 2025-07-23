@@ -5,31 +5,31 @@ body {
 }
 
 .header {
-  vertical-align:middle;
+  vertical-align: middle;
   height: auto;
   margin: 0px auto;
   padding: 20px 10px;
-  background-color:#8f99b5;
+  background-color: #8f99b5;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
 .header-right a {
-    float: left;
-    color: #3b3b3b;
-    text-align: center;
-    padding: 12px;
-    text-decoration: none;
-    font-size: 18px;
-    line-height: 25px;
-    background-color: #c5cade;
-    font-family: 'Montserrat';
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-top: 20px;
+  float: left;
+  color: #3b3b3b;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  background-color: #c5cade;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
 }
 
 .header img {
@@ -39,7 +39,7 @@ body {
 
 
 .header-right a:hover {
-  background-color:#fff;
+  background-color: #fff;
 }
 
 
@@ -59,9 +59,9 @@ body {
 }
 
 .content {
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 2em;
 }
 
 .card {
@@ -73,118 +73,118 @@ body {
 }
 
 .card-image {
-  width:300px;
-  height:auto;
-  border-radius:10%;
+  width: 300px;
+  height: auto;
+  border-radius: 10%;
   margin: 5px 25px;
 }
 
 .card-name {
-    width: 94.5%;
-    color: #fff;
-    background-color: #3b3b3b;
-    padding: 10px;
-    margin-top: 0;
-    font-family: 'Montserrat';
-    text-transform: uppercase;
-    text-align: CENTER;
-    font-size: 20px;
+  width: 94.5%;
+  color: #fff;
+  background-color: #3b3b3b;
+  padding: 10px;
+  margin-top: 0;
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  text-align: CENTER;
+  font-size: 20px;
 }
 
 h2 {
-   color: #fff;
-    background-color: #3b3b3b;
-    padding: 10px;
-    margin-top: 0;
-    font-family: 'Montserrat';
-    text-transform: uppercase;
-    text-align: CENTER;
-    font-size: 20px;
-    width: 100%
+  color: #fff;
+  background-color: #3b3b3b;
+  padding: 10px;
+  margin-top: 0;
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  text-align: CENTER;
+  font-size: 20px;
+  width: 100%
 }
 
 .card-body {
-  width:90%;
+  width: 90%;
   margin: 5px auto auto;
 }
 
 .card-date-added {
-    margin: 16px 10px;
-    font-size: x-small;
-    font-weight: 300;
-    color: #999;
+  margin: 16px 10px;
+  font-size: x-small;
+  font-weight: 300;
+  color: #999;
 }
 
 .card-description {
-    margin: 20px 10px;
-    font-size: medium;
-    font-weight: bold;
-    font-family: 'Montserrat';
-    color: #3b3b3b;
+  margin: 20px 10px;
+  font-size: medium;
+  font-weight: bold;
+  font-family: 'Montserrat';
+  color: #3b3b3b;
 }
 
 .card-interests {
-    margin: 10px;
-    font-size: smaller;
-    color: #3b3b3b;
+  margin: 10px;
+  font-size: smaller;
+  color: #3b3b3b;
 }
 
 h4 {
-    margin: 10px;
-    font-size: medium;
-    font-weight: bold;
-    text-transform: uppercase;
-    font-family: 'Montserrat';
-    font-weight: bold;
-    color: #3b3b3b;
+  margin: 10px;
+  font-size: medium;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  color: #3b3b3b;
 }
 
 .form {
-    width: 600px;
-    margin: auto;
-    background-color: #f4ede1;
-    padding: 0 20px 20px 0;
-        padding-top: 0px;
-        padding-right: 20px;
-        padding-bottom: 20px;
-        padding-left: 0px;
+  width: 600px;
+  margin: auto;
+  background-color: #f4ede1;
+  padding: 0 20px 20px 0;
+  padding-top: 0px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 0px;
 }
 
 input {
-    width: 100%;
-    margin-bottom: 1.25em;
-    height: 2.5em;
-    border: none;
-    margin-top: 5px;
+  width: 100%;
+  margin-bottom: 1.25em;
+  height: 2.5em;
+  border: none;
+  margin-top: 5px;
 }
 
 label {
-    font-family: "Montserrat";
-    text-transform: uppercase;
-    font-weight: bold;
-    color: #3b3b3b;
-    font-size: medium;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #3b3b3b;
+  font-size: medium;
 }
 
 button {
-    background-color: #8f99b5;
-    border: none;
-    padding: 10px 20px;
-    font-weight: bold;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 16px;
-    margin-left: 20px;
-    font-family: "Montserrat";
+  background-color: #8f99b5;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-left: 20px;
+  font-family: "Montserrat";
 }
 
 button:hover {
-   background-color: #3b3b3b;
-   color: #fff; 
+  background-color: #3b3b3b;
+  color: #fff;
 }
 
 .form-input {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
 .error {
